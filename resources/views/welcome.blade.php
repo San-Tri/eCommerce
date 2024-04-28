@@ -45,12 +45,32 @@
             color: #fff;
             text-decoration: none;
         }
+        /*fondos de los productos*/
+        .fnd1 {
+            background-image: url(https://i.pinimg.com/564x/54/0d/30/540d30e80abd4e5a4478e1c6897c390d.jpg);
+            background-position: 100%;
+        }
 
+        .fnd2 {
+            background-image: url(https://i.pinimg.com/736x/55/ad/08/55ad089ed83b4b6b1fe473d818d09df4.jpg);
+            background-position: 100%;
+        }
+
+        .fnd3 {
+            background-image: url(https://i.pinimg.com/564x/e7/76/e9/e776e9579a0cd27d689868c5d7072f88.jpg);
+            background-position: 100%;
+        }
+
+        .fnd4 {
+            background-image: url(https://i.pinimg.com/564x/d8/f7/2c/d8f72c47ece5247b7197196a7c80a1dc.jpg);
+            background-position: 100%;
+        }
+        .fnd5 {
+            background-image: url(https://i.pinimg.com/564x/e4/6a/d0/e46ad05fd67f1403dcdcd935a75b3251.jpg);
+            background-position: 100%;
+        }
         /* Estilos de la sección de descripción */
         .descripcion {
-            background-image: url(https://i.ytimg.com/vi/uoy4v0y5a5g/maxresdefault.jpg);
-            background-size: cover;
-            background-position: center;
             padding: 17px 0;
             text-align: center;
             /* height: calc(100vh - 130px); 130px es la altura aproximada del encabezado y el pie de página */
@@ -147,7 +167,6 @@
             margin-top: 20px;
             text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Añade sombra */
         }
-
     </style>
 </head>
 <body>
@@ -158,30 +177,28 @@
             <ul>
                 <li><a href="#peluches">Peluches</a></li>
                 <li><a href="#figuras">Figuras</a></li>
-                <li><a href="#">Accesorios</a></li>
-                <li><a href="#">Ropa</a></li>
-                <li><a href="#">Mangas</a></li>
+                <li><a href="#accesorio">Accesorios</a></li>
+                <li><a href="#ropa">Ropa</a></li>
+                <li><a href="#mangas">Mangas</a></li>
             </ul>   
         </nav>
     </div>
 </header>
 
-<section class="descripcion">
+<section id="peluches" class="descripcion fnd1">
     <div class="container">
         
-        <h2 id="peluches">Peluches</h2>
+        <h2>Peluches</h2>
         <p class="intro">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus distinctio suscipit, esse quis quisquam non repellat magnam maiores, autem ea deleniti sapiente accusantium enim debitis, voluptates sit molestias adipisci nemo.
+            Peluches de todo tipo de anime, usted solo pida y se lo fabricamos, rapido rapidin.
         </p>
         
         <div class="servicios-container">
 
             <div class="servicio">
-                <a href="#">
-                    <img src="https://th.bing.com/th/id/OIP.dlyrqZdu-stcybUJGqXgngHaDt?rs=1&pid=ImgDetMain" alt="Servicio 1">
-                </a>
+                <img src="https://i.pinimg.com/564x/f0/8a/45/f08a458407df74bdd6cc258c8285d35c.jpg" alt="Servicio 1">
                 <div class="servicio-content">
-                    <h3>Desarrollo Personal</h3>
+                    <h3>Pochita</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -189,11 +206,9 @@
             </div>
 
             <div class="servicio">
-                <a href="#">
-                    <img src="https://img.freepik.com/vector-premium/me-tiempo-concepto-hombre-doodle-aislado-blanco_6997-2814.jpg?w=2000" alt="Servicio 2">
-                </a>
+                <img src="https://i.pinimg.com/564x/c0/51/ad/c051ad60f5a338c120b25e17381e5561.jpg" alt="Servicio 2">
                 <div class="servicio-content">
-                    <h3>Hobbies</h3>
+                    <h3>Power</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -201,11 +216,9 @@
             </div>
 
             <div class="servicio">
-                <a href="#">
-                    <img src="https://www.aggarwalcpa.com/uploaded_files/blog/braj_1647935906.jpg" alt="Servicio 3">
-                </a>
+                <img src="https://i.pinimg.com/564x/c2/43/24/c2432462a33a2635832ddc1fbff31d34.jpg" alt="Servicio 3">
                 <div class="servicio-content">
-                    <h3>Experiencia</h3>
+                    <h3>Krilin</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -213,11 +226,9 @@
             </div>
 
             <div class="servicio">
-                <a href="#">
-                    <img src="https://rgmedia.raportuldegarda.ro/2018/01/stil-de-viata-sanatos.jpg" alt="Servicio 4">
-                </a>
+                <img src="https://i.pinimg.com/564x/59/68/49/596849009dcba3a6bb994c18e84f6ed3.jpg" alt="Servicio 4">
                 <div class="servicio-content">
-                    <h3>Estilo de Vida</h3>
+                    <h3>Goku</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -225,11 +236,9 @@
             </div>
 
             <div class="servicio">
-                <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
-                </a>
+                <img src="https://i.pinimg.com/736x/20/9d/33/209d33d529c115d85cf887ca89a079ed.jpg" alt="Servicio 5">
                 <div class="servicio-content">
-                    <h3>Viajes y Aventuras</h3>
+                    <h3>Charmander</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -237,11 +246,9 @@
             </div>
 
             <div class="servicio">
-                <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
-                </a>
+                <img src="https://i.pinimg.com/736x/99/ac/cb/99accb9a13cf33e02589167250879a63.jpg" alt="Servicio 5">
                 <div class="servicio-content">
-                    <h3>Viajes y Aventuras</h3>
+                    <h3>Pikachu</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -249,11 +256,9 @@
             </div>
 
             <div class="servicio">
-                <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
-                </a>
+                <img src="https://i.pinimg.com/564x/df/54/7f/df547fab1af06f7c045cd3ed9577966a.jpg" alt="Servicio 5">
                 <div class="servicio-content">
-                    <h3>Viajes y Aventuras</h3>
+                    <h3>Luffy</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -261,35 +266,76 @@
             </div>
             
             <div class="servicio">
-                <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
-                </a>
+                <img src="https://i.pinimg.com/564x/6d/97/dc/6d97dc266685a230c97710446f37b93d.jpg" alt="Servicio 5">
                 <div class="servicio-content">
-                    <h3>Viajes y Aventuras</h3>
+                    <h3>Law</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
                 </div>
             </div>
 
+            <div class="servicio">
+                <img src="https://i.pinimg.com/564x/fe/bd/46/febd46fb3551b5a776ad3d4dcfc1fba0.jpg" alt="Servicio 5">
+                <div class="servicio-content">
+                    <h3>Zenitsu</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <img src="https://i.pinimg.com/564x/d7/73/b0/d773b06b68a6acfc643bfbf6b4a8cc19.jpg" alt="Servicio 5">
+                <div class="servicio-content">
+                    <h3>Tanjiro</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <img src="https://i.pinimg.com/564x/6a/e2/52/6ae252ab84d4e711f38bbbf9faf6ff92.jpg" alt="Servicio 5">
+                <div class="servicio-content">
+                    <h3>Bakugo</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <img src="https://i.pinimg.com/564x/fd/74/ac/fd74ac481c81bb511886b0ff99268a24.jpg" alt="Servicio 5">
+                <div class="servicio-content">
+                    <h3>Deku</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
         </div>
+    </div>
+</section>
+
+<section id="figuras" class="descripcion fnd2">
+    <div class="container">
         
-        <h2 id="figuras">Figuras</h2>
+        <h2>Figuras</h2>
         <p class="intro">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis veniam earum aperiam, corporis non ea alias deleniti amet, harum, quasi magnam! Suscipit aliquid soluta officia totam magni veniam quos quae?
+            Peluches de todo tipo de anime, usted solo pida y se lo fabricamos, rapido rapidin.
         </p>
         
         <div class="servicios-container">
-            
+
             <div class="servicio">
-                <a href="#">
-                    <img src="https://th.bing.com/th/id/OIP.dlyrqZdu-stcybUJGqXgngHaDt?rs=1&pid=ImgDetMain" alt="Servicio 1">
-                </a>
+                <img src="https://th.bing.com/th/id/OIP.dlyrqZdu-stcybUJGqXgngHaDt?rs=1&pid=ImgDetMain" alt="Servicio 1">
                 <div class="servicio-content">
-                    <h3>Desarrollo Personal</h3>
+                    <h3>Desarrollo</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
+                </div>
             </div>
 
             <div class="servicio">
@@ -301,7 +347,8 @@
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
-             </div>
+                </div>
+            </div>
 
             <div class="servicio">
                 <a href="#">
@@ -332,7 +379,7 @@
                     <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
                 </a>
                 <div class="servicio-content">
-                    <h3>Viajes y Aventuras</h3>
+                    <h3>Viajes</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -344,7 +391,7 @@
                     <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
                 </a>
                 <div class="servicio-content">
-                    <h3>Viajes y Aventuras</h3>
+                    <h3>Viajes</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -356,7 +403,19 @@
                     <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
                 </a>
                 <div class="servicio-content">
-                    <h3>Viajes y Aventuras</h3>
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+            
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -368,7 +427,514 @@
                     <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
                 </a>
                 <div class="servicio-content">
-                    <h3>Viajes y Aventuras</h3>
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="accesorio" class="descripcion fnd3">
+    <div class="container">
+        
+        <h2>Accesorios</h2>
+        <p class="intro">
+            Peluches de todo tipo de anime, usted solo pida y se lo fabricamos, rapido rapidin.
+        </p>
+        
+        <div class="servicios-container">
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://th.bing.com/th/id/OIP.dlyrqZdu-stcybUJGqXgngHaDt?rs=1&pid=ImgDetMain" alt="Servicio 1">
+                </a>
+                <div class="servicio-content">
+                    <h3>Desarrollo</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://img.freepik.com/vector-premium/me-tiempo-concepto-hombre-doodle-aislado-blanco_6997-2814.jpg?w=2000" alt="Servicio 2">
+                </a>
+                <div class="servicio-content">
+                    <h3>Hobbies</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://www.aggarwalcpa.com/uploaded_files/blog/braj_1647935906.jpg" alt="Servicio 3">
+                </a>
+                <div class="servicio-content">
+                    <h3>Experiencia</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://rgmedia.raportuldegarda.ro/2018/01/stil-de-viata-sanatos.jpg" alt="Servicio 4">
+                </a>
+                <div class="servicio-content">
+                    <h3>Estilo de Vida</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+            
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="ropa" class="descripcion fnd4">
+    <div class="container">
+        
+        <h2>Ropa</h2>
+        <p class="intro">
+            Peluches de todo tipo de anime, usted solo pida y se lo fabricamos, rapido rapidin.
+        </p>
+        
+        <div class="servicios-container">
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://th.bing.com/th/id/OIP.dlyrqZdu-stcybUJGqXgngHaDt?rs=1&pid=ImgDetMain" alt="Servicio 1">
+                </a>
+                <div class="servicio-content">
+                    <h3>Desarrollo</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://img.freepik.com/vector-premium/me-tiempo-concepto-hombre-doodle-aislado-blanco_6997-2814.jpg?w=2000" alt="Servicio 2">
+                </a>
+                <div class="servicio-content">
+                    <h3>Hobbies</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://www.aggarwalcpa.com/uploaded_files/blog/braj_1647935906.jpg" alt="Servicio 3">
+                </a>
+                <div class="servicio-content">
+                    <h3>Experiencia</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://rgmedia.raportuldegarda.ro/2018/01/stil-de-viata-sanatos.jpg" alt="Servicio 4">
+                </a>
+                <div class="servicio-content">
+                    <h3>Estilo de Vida</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+            
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="mangas" class="descripcion fnd5">
+    <div class="container">
+        
+        <h2>Mangas</h2>
+        <p class="intro">
+            Peluches de todo tipo de anime, usted solo pida y se lo fabricamos, rapido rapidin.
+        </p>
+        
+        <div class="servicios-container">
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://th.bing.com/th/id/OIP.dlyrqZdu-stcybUJGqXgngHaDt?rs=1&pid=ImgDetMain" alt="Servicio 1">
+                </a>
+                <div class="servicio-content">
+                    <h3>Desarrollo</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://img.freepik.com/vector-premium/me-tiempo-concepto-hombre-doodle-aislado-blanco_6997-2814.jpg?w=2000" alt="Servicio 2">
+                </a>
+                <div class="servicio-content">
+                    <h3>Hobbies</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://www.aggarwalcpa.com/uploaded_files/blog/braj_1647935906.jpg" alt="Servicio 3">
+                </a>
+                <div class="servicio-content">
+                    <h3>Experiencia</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://rgmedia.raportuldegarda.ro/2018/01/stil-de-viata-sanatos.jpg" alt="Servicio 4">
+                </a>
+                <div class="servicio-content">
+                    <h3>Estilo de Vida</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+            
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
+                    <p>$  49.99</p>
+                        <br>
+                        <button class="btn-add-cart">agregar al carrito</button>
+                </div>
+            </div>
+
+            <div class="servicio">
+                <a href="#">
+                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                </a>
+                <div class="servicio-content">
+                    <h3>Viajes</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
