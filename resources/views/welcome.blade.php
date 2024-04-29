@@ -49,6 +49,7 @@
         .fnd1 {
             background-image: url(https://i.pinimg.com/564x/54/0d/30/540d30e80abd4e5a4478e1c6897c390d.jpg);
             background-position: 100%;
+            /* opacity: 10%; */
         }
 
         .fnd2 {
@@ -329,9 +330,9 @@
         <div class="servicios-container">
 
             <div class="servicio">
-                <img src="https://th.bing.com/th/id/OIP.dlyrqZdu-stcybUJGqXgngHaDt?rs=1&pid=ImgDetMain" alt="Servicio 1">
+                <img src="https://i.pinimg.com/564x/b9/ad/92/b9ad92f344afe3cc57350edd8ec2cdd5.jpg" alt="Servicio 1">
                 <div class="servicio-content">
-                    <h3>Desarrollo</h3>
+                    <h3>Zenitsu</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -339,11 +340,9 @@
             </div>
 
             <div class="servicio">
-                <a href="#">
-                    <img src="https://img.freepik.com/vector-premium/me-tiempo-concepto-hombre-doodle-aislado-blanco_6997-2814.jpg?w=2000" alt="Servicio 2">
-                </a>
+                    <img src="https://i.pinimg.com/564x/42/97/13/429713c31a9da0b482536114a7ae50a8.jpg" alt="Servicio 2">
                 <div class="servicio-content">
-                    <h3>Hobbies</h3>
+                    <h3>Ace</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -351,11 +350,9 @@
             </div>
 
             <div class="servicio">
-                <a href="#">
-                    <img src="https://www.aggarwalcpa.com/uploaded_files/blog/braj_1647935906.jpg" alt="Servicio 3">
-                </a>
+                    <img src="https://i.pinimg.com/564x/00/db/e9/00dbe909470fd7e76464f35abfa62110.jpg" alt="Servicio 3">
                 <div class="servicio-content">
-                    <h3>Experiencia</h3>
+                    <h3>Zoldyck</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -363,11 +360,9 @@
             </div>
 
             <div class="servicio">
-                <a href="#">
-                    <img src="https://rgmedia.raportuldegarda.ro/2018/01/stil-de-viata-sanatos.jpg" alt="Servicio 4">
-                </a>
+                    <img src="https://i.pinimg.com/564x/8a/e7/3a/8ae73a21a8a0d7f8faa7a327eeed0d43.jpg" alt="Servicio 4">
                 <div class="servicio-content">
-                    <h3>Estilo de Vida</h3>
+                    <h3>Luffy</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -375,11 +370,9 @@
             </div>
 
             <div class="servicio">
-                <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
-                </a>
+                    <img src="https://i.pinimg.com/564x/c9/ef/02/c9ef02bf83f238a558c1443bd196ab55.jpg" alt="Servicio 5">
                 <div class="servicio-content">
-                    <h3>Viajes</h3>
+                    <h3>Rengoku</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -387,11 +380,9 @@
             </div>
 
             <div class="servicio">
-                <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
-                </a>
+                    <img src="https://i.pinimg.com/564x/e9/ab/03/e9ab0331e7d1549d138e2f4e3d24336f.jpg" alt="Servicio 5">
                 <div class="servicio-content">
-                    <h3>Viajes</h3>
+                    <h3>Savo</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -399,11 +390,9 @@
             </div>
 
             <div class="servicio">
-                <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
-                </a>
+                    <img src="https://i.pinimg.com/564x/8f/09/84/8f0984263be471dc15df304b125d1e40.jpg" alt="Servicio 5">
                 <div class="servicio-content">
-                    <h3>Viajes</h3>
+                    <h3>Usopp</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -411,11 +400,9 @@
             </div>
             
             <div class="servicio">
-                <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
-                </a>
+                    <img src="https://i.pinimg.com/564x/14/68/cd/1468cd483e20a0383c04acf28cd8d36f.jpg" alt="Servicio 5">
                 <div class="servicio-content">
-                    <h3>Viajes</h3>
+                    <h3>Goku</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -423,11 +410,9 @@
             </div>
 
             <div class="servicio">
-                <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
-                </a>
+                    <img src="https://i.pinimg.com/564x/9d/41/c9/9d41c9e1c3aee11d7f50293b1b8622d2.jpg" alt="Servicio 5">
                 <div class="servicio-content">
-                    <h3>Viajes</h3>
+                    <h3>Orochimaru</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -435,11 +420,9 @@
             </div>
 
             <div class="servicio">
-                <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
-                </a>
+                    <img src="https://i.pinimg.com/564x/42/f3/42/42f342294f8ced8e93107a5670cd6501.jpg" alt="Servicio 5">
                 <div class="servicio-content">
-                    <h3>Viajes</h3>
+                    <h3>Katakuri</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -447,11 +430,9 @@
             </div>
 
             <div class="servicio">
-                <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
-                </a>
+                    <img src="https://i.pinimg.com/564x/46/43/a3/4643a3b668dddfe01f12c7a409301dd2.jpg" alt="Servicio 5">
                 <div class="servicio-content">
-                    <h3>Viajes</h3>
+                    <h3>Zoro</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -459,11 +440,9 @@
             </div>
 
             <div class="servicio">
-                <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
-                </a>
+                    <img src="https://i.pinimg.com/736x/52/ef/66/52ef66eb0f8f53150dd2b8dba52451da.jpg" alt="Servicio 5">
                 <div class="servicio-content">
-                    <h3>Viajes</h3>
+                    <h3>Saitama</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -485,10 +464,10 @@
 
             <div class="servicio">
                 <a href="#">
-                    <img src="https://th.bing.com/th/id/OIP.dlyrqZdu-stcybUJGqXgngHaDt?rs=1&pid=ImgDetMain" alt="Servicio 1">
+                    <img src="https://i.pinimg.com/564x/cb/92/f8/cb92f8ead398d2e5e2810c1ad8c70f4b.jpg" alt="Servicio 1">
                 </a>
                 <div class="servicio-content">
-                    <h3>Desarrollo</h3>
+                    <h3>Anillo Naruto</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -497,10 +476,10 @@
 
             <div class="servicio">
                 <a href="#">
-                    <img src="https://img.freepik.com/vector-premium/me-tiempo-concepto-hombre-doodle-aislado-blanco_6997-2814.jpg?w=2000" alt="Servicio 2">
+                    <img src="https://i.pinimg.com/564x/be/e6/57/bee65779a6b5c7753063b9b8c37bf8c9.jpg" alt="Servicio 2">
                 </a>
                 <div class="servicio-content">
-                    <h3>Hobbies</h3>
+                    <h3>libreta death note</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -509,10 +488,10 @@
 
             <div class="servicio">
                 <a href="#">
-                    <img src="https://www.aggarwalcpa.com/uploaded_files/blog/braj_1647935906.jpg" alt="Servicio 3">
+                    <img src="https://i.pinimg.com/564x/6e/da/09/6eda0974ef5f9ac0f2b24384ea842ec8.jpg" alt="Servicio 3">
                 </a>
                 <div class="servicio-content">
-                    <h3>Experiencia</h3>
+                    <h3>Alcansia Inosuke</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -521,10 +500,10 @@
 
             <div class="servicio">
                 <a href="#">
-                    <img src="https://rgmedia.raportuldegarda.ro/2018/01/stil-de-viata-sanatos.jpg" alt="Servicio 4">
+                    <img src="https://i.pinimg.com/564x/d6/51/03/d65103c11255739d42c6945bc3393550.jpg" alt="Servicio 4">
                 </a>
                 <div class="servicio-content">
-                    <h3>Estilo de Vida</h3>
+                    <h3>Taza Todoroki</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -533,10 +512,10 @@
 
             <div class="servicio">
                 <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                    <img src="https://i.pinimg.com/564x/38/9d/8d/389d8d1b79b55bb70b28d289471a9f34.jpg" alt="Servicio 5">
                 </a>
                 <div class="servicio-content">
-                    <h3>Viajes</h3>
+                    <h3>Aretes L</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -545,10 +524,10 @@
 
             <div class="servicio">
                 <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                    <img src="https://i.pinimg.com/564x/a3/44/dc/a344dca5733f24c638723ac21dc14dcf.jpg" alt="Servicio 5">
                 </a>
                 <div class="servicio-content">
-                    <h3>Viajes</h3>
+                    <h3>Anillos Naruto</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -557,10 +536,10 @@
 
             <div class="servicio">
                 <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                    <img src="https://i.pinimg.com/564x/8e/4c/d7/8e4cd7d60ea882736ab02397c19e55b0.jpg" alt="Servicio 5">
                 </a>
                 <div class="servicio-content">
-                    <h3>Viajes</h3>
+                    <h3>Collar Naruto</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -569,10 +548,10 @@
             
             <div class="servicio">
                 <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                    <img src="https://i.pinimg.com/564x/04/5b/14/045b1499da9d22c27b6b45f8c8e66e6c.jpg" alt="Servicio 5">
                 </a>
                 <div class="servicio-content">
-                    <h3>Viajes</h3>
+                    <h3>Collar one piece</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -581,10 +560,10 @@
 
             <div class="servicio">
                 <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                    <img src="https://i.pinimg.com/564x/b7/b7/2e/b7b72e4a19859d048fa5172432124c12.jpg" alt="Servicio 5">
                 </a>
                 <div class="servicio-content">
-                    <h3>Viajes</h3>
+                    <h3>Latas one piece</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -593,10 +572,10 @@
 
             <div class="servicio">
                 <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                    <img src="https://i.pinimg.com/564x/97/37/26/973726ca9f368b0eb96b82eb41d97364.jpg" alt="Servicio 5">
                 </a>
                 <div class="servicio-content">
-                    <h3>Viajes</h3>
+                    <h3>Mochila Titanes</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -605,10 +584,10 @@
 
             <div class="servicio">
                 <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                    <img src="https://i.pinimg.com/564x/19/3c/b2/193cb2e357daf37c9f678999f8085a63.jpg" alt="Servicio 5">
                 </a>
                 <div class="servicio-content">
-                    <h3>Viajes</h3>
+                    <h3>Mascara Kimetsu</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
@@ -617,10 +596,10 @@
 
             <div class="servicio">
                 <a href="#">
-                    <img src="https://thumb.ac-illust.com/0d/0dac3c758fc6c09bebd303e59e3c6b02_w.jpeg" alt="Servicio 5">
+                    <img src="https://i.pinimg.com/564x/88/27/17/882717e0661677263db69c7e6fb1bb3a.jpg" alt="Servicio 5">
                 </a>
                 <div class="servicio-content">
-                    <h3>Viajes</h3>
+                    <h3>Case Jujusu</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>
