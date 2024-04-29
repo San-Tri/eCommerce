@@ -11,6 +11,7 @@
             padding: 0;
             font-family: Arial, sans-serif;
             height: 100%;
+            justify-content: space-between;
         }
 
         .navegar {
@@ -24,6 +25,9 @@
             background-color: #333;
             color: #fff;
             padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
         }
 
         header h1 {
