@@ -61,30 +61,12 @@
             display: inline;
             justify-content: end;
         }
-        .fnd1 {
-            background-image: url(https://i.pinimg.com/564x/54/0d/30/540d30e80abd4e5a4478e1c6897c390d.jpg);
-            background-position: 100%;
-            /* opacity: 10%; */
-        }
-
-        .fnd2 {
-            background-image: url(https://i.pinimg.com/736x/55/ad/08/55ad089ed83b4b6b1fe473d818d09df4.jpg);
-            background-position: 100%;
-        }
-
-        .fnd3 {
-            background-image: url(https://i.pinimg.com/564x/e7/76/e9/e776e9579a0cd27d689868c5d7072f88.jpg);
-            background-position: 100%;
-        }
 
         .fnd4 {
             background-image: url(https://i.pinimg.com/564x/d8/f7/2c/d8f72c47ece5247b7197196a7c80a1dc.jpg);
             background-position: 100%;
         }
-        .fnd5 {
-            background-image: url(https://i.pinimg.com/564x/e4/6a/d0/e46ad05fd67f1403dcdcd935a75b3251.jpg);
-            background-position: 100%;
-        }
+        
         /* Estilos de la sección de descripción */
         .descripcion {
             padding: 17px 0;
@@ -331,139 +313,6 @@
                     <img src="https://i.pinimg.com/564x/39/15/72/391572727b55d024dda4587148e8affa.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Gorra Goku</h3>
-                    <p>$  49.99</p>
-                        <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="mangas" class="descripcion fnd5">
-    <div class="container">
-        
-        <h2>Mangas</h2>
-        <p class="intro">
-            Peluches de todo tipo de anime, usted solo pida y se lo fabricamos, rapido rapidin.
-        </p>
-        
-        <div class="servicios-container">
-
-            <div class="servicio">
-                    <img src="https://i.pinimg.com/564x/cc/6a/04/cc6a04585fdb13da359e75bfb87b3be6.jpg" alt="Servicio 1">
-                <div class="servicio-content">
-                    <h3>One piece</h3>
-                    <p>$  49.99</p>
-                        <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
-                </div>
-            </div>
-
-            <div class="servicio">
-                    <img src="https://i.pinimg.com/564x/73/8e/f1/738ef1a834d55f133284591faeded531.jpg" alt="Servicio 2">
-                <div class="servicio-content">
-                    <h3>Boku no hero</h3>
-                    <p>$  49.99</p>
-                        <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
-                </div>
-            </div>
-
-            <div class="servicio">
-                    <img src="https://i.pinimg.com/564x/2c/60/39/2c60392e730a460a5e87164594ab0832.jpg" alt="Servicio 3">
-                <div class="servicio-content">
-                    <h3>Death Note</h3>
-                    <p>$  49.99</p>
-                        <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
-                </div>
-            </div>
-
-            <div class="servicio">
-                    <img src="https://i.pinimg.com/564x/7b/24/81/7b24816a9f9c42745a8c42e90bbf04c2.jpg" alt="Servicio 4">
-                <div class="servicio-content">
-                    <h3>Jojo´s</h3>
-                    <p>$  49.99</p>
-                        <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
-                </div>
-            </div>
-
-            <div class="servicio">
-                    <img src="https://i.pinimg.com/564x/0e/b3/b2/0eb3b2ea3aa3beed5355e4d8a4a5cb3b.jpg" alt="Servicio 5">
-                <div class="servicio-content">
-                    <h3>Dragon Ball</h3>
-                    <p>$  49.99</p>
-                        <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
-                </div>
-            </div>
-
-            <div class="servicio">
-                    <img src="https://i.pinimg.com/564x/8b/c3/a8/8bc3a86aa54248ee1776152a9c92d46c.jpg" alt="Servicio 5">
-                <div class="servicio-content">
-                    <h3>Naruto</h3>
-                    <p>$  49.99</p>
-                        <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
-                </div>
-            </div>
-
-            <div class="servicio">
-                    <img src="https://i.pinimg.com/564x/78/9f/66/789f6614b5d45522e3b614d1e252c2b0.jpg" alt="Servicio 5">
-                <div class="servicio-content">
-                    <h3>Evangelion</h3>
-                    <p>$  49.99</p>
-                        <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
-                </div>
-            </div>
-            
-            <div class="servicio">
-                    <img src="https://i.pinimg.com/564x/1f/85/3d/1f853d3884fe244104ebf2af8d9992c6.jpg" alt="Servicio 5">
-                <div class="servicio-content">
-                    <h3>Kimetsu no Yaiba</h3>
-                    <p>$  49.99</p>
-                        <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
-                </div>
-            </div>
-
-            <div class="servicio">
-                    <img src="https://i.pinimg.com/564x/e3/b2/65/e3b265463c6d5a1f26ddd4d4f2fde85b.jpg" alt="Servicio 5">
-                <div class="servicio-content">
-                    <h3>Tokyo Ghoul</h3>
-                    <p>$  49.99</p>
-                        <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
-                </div>
-            </div>
-
-            <div class="servicio">
-                    <img src="https://i.pinimg.com/736x/8d/0a/a2/8d0aa2607c21ce45625bfc3b07e43692.jpg" alt="Servicio 5">
-                <div class="servicio-content">
-                    <h3>Jujutsu Kaisen</h3>
-                    <p>$  49.99</p>
-                        <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
-                </div>
-            </div>
-
-            <div class="servicio">
-                    <img src="https://i.pinimg.com/564x/63/12/09/631209232adab7b7d7daee3e90dc4d86.jpg" alt="Servicio 5">
-                <div class="servicio-content">
-                    <h3>Chaisaw menS</h3>
-                    <p>$  49.99</p>
-                        <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
-                </div>
-            </div>
-
-            <div class="servicio">
-                    <img src="https://i.pinimg.com/564x/9a/24/89/9a2489698d2ecc0f1d338a923dbebb13.jpg" alt="Servicio 5">
-                <div class="servicio-content">
-                    <h3>Tokio Revenger</h3>
                     <p>$  49.99</p>
                         <br>
                         <button class="btn-add-cart">agregar al carrito</button>

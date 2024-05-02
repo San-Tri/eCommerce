@@ -61,30 +61,12 @@
             display: inline;
             justify-content: end;
         }
-        .fnd1 {
-            background-image: url(https://i.pinimg.com/564x/54/0d/30/540d30e80abd4e5a4478e1c6897c390d.jpg);
-            background-position: 100%;
-            /* opacity: 10%; */
-        }
-
-        .fnd2 {
-            background-image: url(https://i.pinimg.com/736x/55/ad/08/55ad089ed83b4b6b1fe473d818d09df4.jpg);
-            background-position: 100%;
-        }
-
+        
         .fnd3 {
             background-image: url(https://i.pinimg.com/564x/e7/76/e9/e776e9579a0cd27d689868c5d7072f88.jpg);
             background-position: 100%;
         }
 
-        .fnd4 {
-            background-image: url(https://i.pinimg.com/564x/d8/f7/2c/d8f72c47ece5247b7197196a7c80a1dc.jpg);
-            background-position: 100%;
-        }
-        .fnd5 {
-            background-image: url(https://i.pinimg.com/564x/e4/6a/d0/e46ad05fd67f1403dcdcd935a75b3251.jpg);
-            background-position: 100%;
-        }
         /* Estilos de la sección de descripción */
         .descripcion {
             padding: 17px 0;
