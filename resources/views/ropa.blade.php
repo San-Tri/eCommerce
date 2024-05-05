@@ -29,13 +29,8 @@
     </div>
 </header>
 
-<section id="ropa" class="descripcion fnd4">
+<section id="ropa" class="descripcion fnd">
     <div class="container">
-        
-        <h2>Ropa</h2>
-        <p class="intro">
-            Peluches de todo tipo de anime, usted solo pida y se lo fabricamos, rapido rapidin.
-        </p>
         
         <div class="servicios-container">
 

@@ -29,13 +29,8 @@
     </div>
 </header>
 
-<section id="peluches" class="descripcion fnd1">
+<section id="peluches" class="descripcion fnd">
     <div class="container">
-        
-        <h2>Peluches</h2>
-        <p class="intro">
-            Peluches de todo tipo de anime, usted solo pida y se lo fabricamos, rapido rapidin.
-        </p>
         
         <div class="servicios-container">
 
