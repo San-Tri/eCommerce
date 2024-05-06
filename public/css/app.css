@@ -1,10 +1,12 @@
  /* Estilos generales */
  body, html {
+    font-family: Arial, sans-serif;
+    height: 100vh;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    height: 100%;
     /* justify-content: space-between; */
+    box-sizing: border-box;
+    
 }
 
 /* Estilos del encabezado */
@@ -14,7 +16,6 @@ header {
     padding: 20px 0;
     width: 100%;
     top: 0;
-    align: icon;
 }
 
 header h1 {
@@ -43,6 +44,120 @@ nav ul li a {
     padding: 0 20px;
 }
 
+/*Estilo del contenido*/
+img {
+    width: 100%;
+    height: 100%;
+    display: block;/*los elementos funcionaran como blocke*/
+}
+
+.contenedor {
+    display: flex;/*los elementos puede moverse*/
+    justify-content: center;/*inicio, centro y final*/
+    align-items: center;/*los elementos centrado orizantal*/
+    width: 100%;
+    width: 820px;
+    height: 340px;
+    display: flex;
+    gap: 10px;/*espacio entre filas y columnas*/
+    margin: 5% 20%;
+}
+
+.card {
+    min-width: 70px;/*minimo-ancho*/
+    height: 100%;
+    border-radius: 30px;
+    overflow: hidden;/*El contenido es recortado y no se muestran barras de posición.*/
+
+    display:flex;/*los elementos se vuelven flexibles*/
+    align-items: flex-end;/*Los elementos están alineados al final*/
+    flex-grow: 1;/*los items no van a crecer pero si reducirse de manera proporcional para ajustarse al espacio.*/
+    cursor: pointer;/*cursor que se mostrara cuando este se encuentre sobre un elemento*/
+    position: relative;/*desplazado con top, right, bottom*/
+    transition: flex-grow 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+
+    --transition-timing: 0.35s;
+}
+
+.card:hover {
+    flex-grow: 9;/*crecimiento del elemento*/
+}
+
+.card > .fondo {
+    position: absolute;/*el elemento es movido sin crear un espacio para este*/
+    inset: 0;/*desplazamiento para el ajuste del texto*/
+    object-fit: cover;/*mantiene el aspecto de la img mientras llena el cuadro de contenido*/
+    object-position: center;/*alinea el elemento dentro de la caja*/
+    filter: brightness(0.7);/*oscurece la imagen*/
+    /* z-index: -1; */
+    transition: var(--transition-timing) ease;
+}
+.card:hover > .fondo {
+    filter: brightness(1);
+}
+
+.card > .contenido-card {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 20px;
+    overflow: hidden;
+    transition: var(--transition-timing);
+    z-index: 10;
+}
+.card:hover > .contenido-card {
+    inset: 20px;
+    top: auto;
+}
+
+.contenido-card > body {
+    transition: var(--transition-timing);
+}
+
+.contenido-card > .perfil-imagen {
+    min-width: 50px;
+    max-width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+.card >.contenido-card > h3 {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.card:hover >.contenido-card > h3 {
+    opacity: 1;
+}
+
+.card:hover .perfil-imagen{
+    border: 1px solid rgb(110, 252, 205);
+}
+.perfil-imagen > i {
+    color: #fefefe;
+}
+.card:hover .perfil-imagen > i {
+    color: rgb(110, 252, 205);
+}
+
+.card > .telon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    z-index: 0;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+}
 /* Estilos del pie de página */
 footer {
     bottom: 0;
