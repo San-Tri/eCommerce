@@ -26,12 +26,13 @@
     </div>
 
     <div class="search">
-        <i class="bi bi-search"></i>
-        <input class="input" type="search">
+        <input class="input" type="search" placeholder="Buscar...">
+        <button><i class="bi bi-search"></i></button>
     </div>
 
     <div class="iconos">
         <i class="bi bi-cart"></i>
+        <i class="bi bi-person"></i>
         <i class="bi bi-0-circle-fill"></i>
     </div>
 </header>
@@ -47,7 +48,7 @@
                     <h3>One piece</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -57,7 +58,7 @@
                     <h3>Boku no hero</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -67,7 +68,7 @@
                     <h3>Death Note</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -77,7 +78,7 @@
                     <h3>Jojo´s</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -87,7 +88,7 @@
                     <h3>Dragon Ball</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -97,7 +98,7 @@
                     <h3>Naruto</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -107,7 +108,7 @@
                     <h3>Evangelion</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
             
@@ -117,7 +118,7 @@
                     <h3>Kimetsu no Yaiba</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -127,7 +128,7 @@
                     <h3>Tokyo Ghoul</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -137,7 +138,7 @@
                     <h3>Jujutsu Kaisen</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -147,7 +148,7 @@
                     <h3>Chaisaw menS</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -157,7 +158,7 @@
                     <h3>Tokio Revenger</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
         </div>

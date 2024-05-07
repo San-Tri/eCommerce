@@ -54,33 +54,44 @@ a {
 }
 
 .input {
+    color: white;
     width: 90%;
     height: 40px;
-    border-radius: 30px;
+    border-radius: 30px 0 0 30px;
     border-style: none;
     background-color: #666;
-
 }
 
 .iconos {
     padding-right: 10px;
 }
 
+button {
+    background-color: #000000;
+    padding: 12.5px;
+    position: absolute;
+    /* border-color: black; */
+    border-radius: 0 30px 30px 0;
+    border-style: none;
+    cursor: pointer;
+}
 .bi-search {
-    display: flex;
-    position: relative;    
-    top: 28px;
-    left: 10px;
-    margin-left: 10px;
+    color: #fff;
 }
 
 .bi-0-circle-fill {
+    font-size: 18px;
+    color: #000;
     display: flex;
     position: relative;    
-    bottom: 15px;
-    right: 3px;
+    bottom: 16px;
+    right: 2px;
 }
 .bi-cart {
+    font-size: 25px;
+}
+
+.bi-person {
     font-size: 25px;
 }
 
@@ -91,13 +102,6 @@ a {
     background-repeat: no-repeat;
     background-attachment: fixed;/*el fondo se queda estatico y no se mueve*/
     background-size: cover;/*la imagen ocupa todo el alto y el acho del contenedor*/
-}
-
-/* Estilos de la sección de descripción */
-.descripcion {
-    padding: 17px 0;
-    text-align: center;
-    /* height: calc(100vh - 130px); 130px es la altura aproximada del encabezado y el pie de página */
 }
 
 .servicios-container {
@@ -136,24 +140,22 @@ a {
 }
 
 .servicio h3 {
+    color: #fff;
     margin-top: 5px;
     font-size: 20px; /* Tamaño del título */
 }
 
-.servicio a {
-    display: block;
-}
-
 .servicio p {
-    margin: 5px;
-    color: #666;
+    color: #cac9c9;
+    margin: 0 50px;
     font-size: 20px;
 }
 
 .btn-add-cart {
     display: block;
-    width: 100%;
-    padding: 10px;
+    font-size: 20px;
+    width: 90%;
+    padding: 8px;
     background-color: #333;
     color: #fff;
     border: none;

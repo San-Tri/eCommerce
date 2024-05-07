@@ -27,13 +27,16 @@
     </div>
 
     <div class="search">
-        <i class="bi bi-search"></i>
-        <input class="input" type="search">
+        <input class="input" type="search" placeholder="Buscar...">
+        <button><i class="bi bi-search"></i></button>
     </div>
 
     <div class="iconos">
-        <i class="bi bi-cart"></i>
-        <i class="bi bi-0-circle-fill"></i>
+        <div class="carrito">
+            <i class="bi bi-cart"></i>
+            <span class="contador">0</span>
+        </div>
+        <i class="bi bi-person"></i>
     </div>
 
 </header>
@@ -49,7 +52,7 @@
                     <h3>Pochita</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -59,7 +62,7 @@
                     <h3>Power</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -69,7 +72,7 @@
                     <h3>Krilin</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -79,7 +82,7 @@
                     <h3>Goku</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -89,7 +92,7 @@
                     <h3>Charmander</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -99,7 +102,7 @@
                     <h3>Pikachu</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -109,7 +112,7 @@
                     <h3>Luffy</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
             
@@ -119,7 +122,7 @@
                     <h3>Law</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -129,7 +132,7 @@
                     <h3>Zenitsu</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -139,7 +142,7 @@
                     <h3>Tanjiro</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -149,7 +152,7 @@
                     <h3>Bakugo</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -159,7 +162,7 @@
                     <h3>Deku</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
         </div>

@@ -27,12 +27,13 @@
     </div>
 
     <div class="search">
-        <i class="bi bi-search"></i>
-        <input class="input" type="search">
-    </div>
+        <input class="input" type="search" placeholder="Buscar...">
+        <button><i class="bi bi-search"></i></button>
+    </div>  
 
     <div class="iconos">
         <i class="bi bi-cart"></i>
+        <i class="bi bi-person"></i>
         <i class="bi bi-0-circle-fill"></i>
     </div>
 </header>
@@ -48,7 +49,7 @@
                     <h3>Anillo Naruto</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -58,7 +59,7 @@
                     <h3>libreta death note</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -68,7 +69,7 @@
                     <h3>Alcansia Inosuke</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -78,7 +79,7 @@
                     <h3>Taza Todoroki</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -88,7 +89,7 @@
                     <h3>Aretes L</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -98,7 +99,7 @@
                     <h3>Anillos Naruto</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -108,7 +109,7 @@
                     <h3>Collar Naruto</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
             
@@ -118,7 +119,7 @@
                     <h3>Collar one piece</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -128,7 +129,7 @@
                     <h3>Latas one piece</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -138,7 +139,7 @@
                     <h3>Mochila Titanes</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -148,7 +149,7 @@
                     <h3>Mascara Kimetsu</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
 
@@ -158,7 +159,7 @@
                     <h3>Case Jujusu</h3>
                     <p>$  49.99</p>
                         <br>
-                        <button class="btn-add-cart">agregar al carrito</button>
+                        <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
         </div>
