@@ -14,32 +14,18 @@ header {
     padding: 20px 0;
     width: 100%;
     top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header h1 {
+h1 {
     margin: 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
 }
 
 .navegar {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    margin-left: 10px;
 }
 
 .titulo-inicio {
@@ -47,12 +33,58 @@ nav ul li a {
     text-decoration: none;
 }
 
-/*fondos de los productos*/
-.iconos {
-    display: inline;
-    justify-content: end;
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search {
+    width: 50%;
+}
+
+.input {
+    width: 90%;
+    height: 40px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #666;
+
+}
+
+.iconos {
+    padding-right: 10px;
+}
+
+.bi-search {
+    display: flex;
+    position: relative;    
+    top: 28px;
+    left: 10px;
+    margin-left: 10px;
+}
+
+.bi-0-circle-fill {
+    display: flex;
+    position: relative;    
+    bottom: 15px;
+    right: 3px;
+}
+.bi-cart {
+    font-size: 25px;
+}
+
+/*fondos de los productos*/
 .fnd {
     background-image: url(https://www.xtrafondos.com/wallpapers/patrones-con-ilustraciones-neon-3475.jpg);
     background-position: center center;/*posicion de la imagen*/

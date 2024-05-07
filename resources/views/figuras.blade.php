@@ -13,6 +13,7 @@
         <a class="titulo-inicio" href="{{route('welcome')}}">
             <h1>Otaku</h1>
         </a>
+
         <nav>
             <ul>
                 <li><a href="{{route('peluches')}}">Peluches</a></li>
@@ -23,9 +24,15 @@
             </ul>   
         </nav>
     </div>
+
+    <div class="search">
+        <i class="bi bi-search"></i>
+        <input class="input" type="search">
+    </div>
+    
     <div class="iconos">
         <i class="bi bi-cart"></i>
-        <i class="bi bi-0-circle"></i>
+        <i class="bi bi-0-circle-fill"></i>
     </div>
 </header>
 

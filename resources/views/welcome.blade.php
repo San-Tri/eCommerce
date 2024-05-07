@@ -28,7 +28,7 @@
         <img class="fondo" src="https://i.pinimg.com/736x/82/be/59/82be59e2305a0841dc023ffa919f30de.jpg" alt="">
         <div class="contenido-card">
             <div class="perfil-imagen">
-                <i class="bi bi-bag"></i>
+                <a href="{{route('peluches')}}"><i class="bi bi-bag"></i></a>
             </div>
             <h3 class="titulo">PELUCHES</h3>
         </div>
@@ -39,7 +39,7 @@
         <img class="fondo" src="https://i.pinimg.com/564x/75/b6/69/75b669a747c2a7aab390a5dda99635e5.jpg" alt="">
         <div class="contenido-card">
             <div class="perfil-imagen">
-                <i class="bi bi-bag"></i>
+                <a href="{{route('figuras')}}"><i class="bi bi-bag"></i></a>
             </div>
             <h3 class="titulo">FIGURAS</h3>
         </div>
@@ -50,7 +50,7 @@
         <img class="fondo" src="https://i.pinimg.com/564x/62/da/f3/62daf317ec3c6fb8e096ff9ce83243de.jpg" alt="">
         <div class="contenido-card">
             <div class="perfil-imagen">
-                <i class="bi bi-bag"></i>
+                <a href="{{route('accesorios')}}"><i class="bi bi-bag"></i></a>
             </div>
             <h3 class="titulo">ACCESORIOS</h3>
         </div>
@@ -61,7 +61,7 @@
         <img class="fondo" src="https://i.pinimg.com/564x/54/0d/30/540d30e80abd4e5a4478e1c6897c390d.jpg" alt="">
         <div class="contenido-card">
             <div class="perfil-imagen">
-                <i class="bi bi-bag"></i>
+                <a href="{{route('ropa')}}"><i class="bi bi-bag"></i></a>
             </div>
             <h3 class="titulo">ROPA</h3>
         </div>
@@ -72,7 +72,7 @@
         <img class="fondo" src="https://i.pinimg.com/564x/8a/70/df/8a70dfa83232d67bf5b20ec14ccced72.jpg" alt="">
         <div class="contenido-card">
             <div class="perfil-imagen">
-                <i class="bi bi-bag"></i>
+                <a href="{{route('mangas')}}"><i class="bi bi-bag"></i></a>
             </div>
             <h3 class="titulo">MANGAS</h3>
         </div>
