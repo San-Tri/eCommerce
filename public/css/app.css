@@ -4,16 +4,15 @@
     height: 100vh;
     margin: 0;
     padding: 0;
-    /* justify-content: space-between; */
     box-sizing: border-box;
-    background-color: #666;
+    background: linear-gradient(90deg, rgba(2,0,36,1), hsl(273, 100%, 39%), rgb(0, 255, 191), hsl(273, 100%, 39%), rgba(2,0,36,1));
 }
 
 /* Estilos del encabezado */
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 30px 0;
     width: 100%;
     top: 0;
 }
@@ -55,9 +54,9 @@ img {
     display: flex;/*los elementos puede moverse*/
     justify-content: center;/*inicio, centro y final*/
     align-items: center;/*los elementos centrado orizantal*/
-    width: 100%;
-    width: 820px;
-    height: 340px;
+    /* width: 100%; */
+    /* width: 820px; */
+    height: 58%;
     display: flex;
     gap: 10px;/*espacio entre filas y columnas*/
     margin: 5% 20%;

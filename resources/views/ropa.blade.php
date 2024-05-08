@@ -199,12 +199,6 @@
     </div>
 </section>
 
-<footer>
-    <div class="container">
-        <p>Derechos de Autor &copy; 2024 Portal de Servicios</p>
-    </div>
-</footer>
-
 <div id="formularioRegistro" class="registro">
     <h2>Inicio de seccion</h2>
     <form action="" method="post">
