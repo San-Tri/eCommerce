@@ -23,33 +23,43 @@
                 <li><a href="{{route('mangas')}}">Mangas</a></li>
             </ul>   
         </nav>
+
     </div>
 
     <div class="search">
-        <input class="input" type="search" placeholder="Buscar...">
-        <button class="buscar"><i class="bi bi-search"></i></button>
+        <input class="input" type="search" placeholder="   Buscar...">
+        <button class="buscar">
+            <i class="bi bi-search"></i>
+        </button>
     </div>
-    
+
     <div class="iconos">
-        <div class="carrito">
-            <i class="bi bi-cart"></i>
+
+        <div class="contenedor-carrito-icono">
+            <button class="scroll">
+                <i class="bi bi-cart"></i>
+            </button>
             <span class="contador">0</span>
         </div>
-        <i class="bi bi-person"></i>
+
+        <button id="icono-usuario" class="scroll">
+            <i class="bi bi-person"></i>
+        </button>
+
     </div>
 
     <!--ejemplo productos en el carrito-->
     <div class="contenedor-carrito ocultar-carrito">
         <div class="lista-producto ocultar">
             <div class="carrito-producto">
-                <div class="info-producto">
+                <!-- <div class="info-producto">
                     <span class="cantidad-producto">1</span>
                     <p class="producto-carrito">Pochita</p>
                     <span class="precio">$ 49.99</span>
-                    <button class="boton-x">
-                        <i class="bi bi-x"></i>
-                    </button>
-                </div>
+                </div> -->
+                <button class="boton-x">
+                    <i class="bi bi-x"></i>
+                </button>
             </div>
         </div>
         <div class="precio-total">
@@ -189,10 +199,136 @@
     </div>
 </section>
 
+<div id="formularioRegistro" class="registro">
+    <h2>Inicio de seccion</h2>
+    <form action="" method="post">
+        <label for="nombre">Usuario:</label>
+        <input type="text" name="nombre" placeholder="  User..." required><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="  Email..." required><br>
+        
+        <label for="password">Contraseña:</label>
+        <input type="password" name="contrasena" placeholder="  Password..." required><br>
+        
+        <input type="submit" value="Registrar"><br>
+    </form>
+</div>
+
 <footer>
-    <div class="container">
+    <div class="container-f">
         <p>Derechos de Autor &copy; 2024 Portal de Servicios</p>
     </div>
 </footer>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const iconoUsuario = document.getElementById("icono-usuario");
+
+    iconoUsuario.addEventListener("click", function() {
+        mostrarFormulario();
+    });
+
+    function mostrarFormulario() {
+        const formulario = document.getElementById("formularioRegistro");
+        formulario.style.display = (formulario.style.display === "block") ? "none" : "block";
+    }
+});
+
+const btnCart = document.querySelector('.contenedor-carrito-icono');
+const containerCartProducts = document.querySelector('.contenedor-carrito');
+
+btnCart.addEventListener('click', () => {
+    containerCartProducts.classList.toggle('ocultar-carrito');
+});
+
+const productsList = document.querySelector('.servicios-container');
+let allProducts = [];
+
+const valorTotal = document.querySelector('.total-pagar');
+const countProducts = document.querySelector('.contador');
+const cartEmpty = document.querySelector('.carrito-vacio');
+const cartTotal = document.querySelector('.precio-total');
+
+productsList.addEventListener('click', e => {
+    if (e.target.classList.contains('btn-add-cart')) {
+        const product = e.target.closest('.servicio').querySelector('.servicio-content');
+        const infoProduct = {
+            quantity: 1,
+            title: product.querySelector('h3').textContent,
+            price: product.querySelector('p').textContent,
+        };
+
+        const exists = allProducts.some(product => product.title === infoProduct.title);
+
+        if (exists) {
+            allProducts = allProducts.map(product => {
+                if (product.title === infoProduct.title) {
+                    product.quantity++;
+                }
+                return product;
+            });
+        } else {
+            allProducts.push(infoProduct);
+        }
+
+        showHTML();
+    }
+});
+
+const rowProduct = document.querySelector('.lista-producto');
+
+rowProduct.addEventListener('click', e => {
+    if (e.target.classList.contains('boton-x')) {
+        const title = e.target.closest('.carrito-producto').querySelector('.producto-carrito').textContent;
+
+        allProducts = allProducts.filter(product => product.title !== title);
+
+        showHTML();
+    }
+});
+
+const showHTML = () => {
+    if (!allProducts.length) {
+        cartEmpty.style.display = 'block';
+        rowProduct.style.display = 'none';
+        cartTotal.style.display = 'none';
+    } else {
+        cartEmpty.style.display = 'none';
+        rowProduct.style.display = 'block';
+        cartTotal.style.display = 'block';
+    }
+
+    rowProduct.innerHTML = '';
+
+    let total = 0;
+    let totalOfProducts = 0;
+
+    allProducts.forEach(product => {
+        const containerProduct = document.createElement('div');
+        containerProduct.classList.add('carrito-producto');
+
+        containerProduct.innerHTML = `
+            <div class="info-producto">
+                <span class="cantidad-producto">${product.quantity}</span>
+                <p class="producto-carrito">${product.title}</p>
+                <span class="precio">${product.price}</span>
+            </div>
+            <button class="boton-x">
+                <i class="bi bi-x"></i>
+            </button>
+        `;
+
+        rowProduct.append(containerProduct);
+
+        total += parseInt(product.quantity) * parseFloat(product.price.replace('$', ''));
+        totalOfProducts += product.quantity;
+    });
+
+    valorTotal.textContent = `$${total.toFixed(2)}`;
+    countProducts.textContent = totalOfProducts;
+};
+
+</script>
 </body>
 </html>

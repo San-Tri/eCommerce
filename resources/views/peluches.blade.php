@@ -27,7 +27,7 @@
     </div>
 
     <div class="search">
-        <input class="input" type="search" placeholder="Buscar...">
+        <input class="input" type="search" placeholder="   Buscar...">
         <button class="buscar">
             <i class="bi bi-search"></i>
         </button>
@@ -36,13 +36,13 @@
     <div class="iconos">
 
         <div class="contenedor-carrito-icono">
-            <button>
+            <button class="scroll">
                 <i class="bi bi-cart"></i>
             </button>
             <span class="contador">0</span>
         </div>
 
-        <button id="icono-usuario">
+        <button id="icono-usuario" class="scroll">
             <i class="bi bi-person"></i>
         </button>
 
@@ -199,6 +199,22 @@
     </div>
 </section>
 
+<div id="formularioRegistro" class="registro">
+    <h2>Inicio de seccion</h2>
+    <form action="" method="post">
+        <label for="nombre">Usuario:</label>
+        <input type="text" name="nombre" placeholder="  User..." required><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="  Email..." required><br>
+        
+        <label for="password">Contraseña:</label>
+        <input type="password" name="contrasena" placeholder="  Password..." required><br>
+        
+        <input type="submit" value="Registrar"><br>
+    </form>
+</div>
+
 <footer>
     <div class="container-f">
         <p>Derechos de Autor &copy; 2024 Portal de Servicios</p>
@@ -214,7 +230,7 @@
     });
 
     function mostrarFormulario() {
-        const formulario = document.getElementById("formulario-registro");
+        const formulario = document.getElementById("formularioRegistro");
         formulario.style.display = (formulario.style.display === "block") ? "none" : "block";
     }
 });

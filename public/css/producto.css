@@ -100,14 +100,6 @@ a {
     color: #fff;
 }
 
-.bi-0-circle-fill {
-    font-size: 18px;
-    color: #000;
-    display: flex;
-    position: relative;    
-    bottom: 16px;
-    right: 2px;
-}
 .bi-cart {
     font-size: 25px;
 }
@@ -119,15 +111,25 @@ a {
 /*diseño producto carrito*/
 .contenedor-carrito{
     position: absolute;
-    top: 70px;
-    right: 0;
+    top: 95px;
+    right: 15px;
 
-    background-color: #000;
-    border: 1px solid #000;
     width: 400px;
     z-index: 1;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
     border-radius: 20px;
+    backdrop-filter: blur(0.8rem);/*efecto blur (desenfoque)*/
+    -webkit-backdrop-filter: blur(0.8rem);
+}
+
+.scroll {
+    background-color: #333;
+    border-style: none;
+}
+.contador {
+    /* display: flex; */
+    position: fixed;
+    right: 76px;
+    top: 46px   ;
 }
 
 .carrito-producto {
@@ -143,26 +145,28 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.8px;
+    padding: 2px;
+    margin: 5px;
 }
 
-.cantidad-producto {
-    font-weight: 400;
-    font-size: 20px;
+.cantidad-producto,
+.producto-carrito,
+.precio {
+    margin-right: 40px; /* Ajusta este valor según tu preferencia */
 }
 
 .precio {
-    font-weight: 700;
+    font-weight: 500; 
     font-size: 20px;
-    margin-left: 10px;
 }
 
 .boton-x {
-    width: 25px;
-    height: 25px;
+    border: none;
+    background: none;
+    font-size: 40px;
 }
 .boton-x:hover {
-    stroke: rgb(204, 142, 142);
+    /* stroke: rgb(204, 142, 142); */
     cursor: pointer;
 }
 
@@ -171,17 +175,19 @@ a {
     justify-content: center;
     align-items: center;
     padding: 20px 0;
-    gap: 20px;
+    gap: 20px;/*mantendrán un espacio entre ellos*/
 }
 
 .precio-total h3 {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 300;
+    margin: 0;
 }
 
 .total-pagar {
     font-size: 20px;
     font-weight: 500;
+    margin: 0;
 }
 
 .carrito-vacio {
@@ -194,6 +200,63 @@ a {
     display: none;
 }
 
+/*diseño registro usuario*/
+#formularioRegistro {
+    display: none;
+}
+
+.registro {
+    position: absolute;
+    top: 95px;
+    right: 15px;
+
+    width: 400px;
+    height: 310px;
+    z-index: 1;
+    border-radius: 20px;
+    backdrop-filter: blur(0.8rem);/*efecto blur (desenfoque)*/
+    -webkit-backdrop-filter: blur(0.8rem);
+}
+
+.registro h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.registro label {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.registro input {
+    width: 90%;
+    height: 25px;
+    padding: 2px;
+    border-radius: 30px;
+    border-style: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.registro input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    transition: background-color 0.3s;
+    text-align: center;
+    height: 30px;
+}
+
+.registro input[type="submit"]:hover {
+    background-color: #555;
+}
 
 /*fondos de los productos*/
 .fnd {
@@ -277,20 +340,4 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
-}
-
-/* Estilos para el título de la descripción */
-.descripcion h2 {
-    font-size: 32px; /* Tamaño del título */
-    color: #fff; /* Color del texto */
-    margin-bottom: 20px; /* Espaciado inferior */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
-}
-
-/* Estilos para la introducción */
-.intro {
-    font-size: 18px;
-    color: #fff;
-    margin-top: 20px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Añade sombra */
 }
