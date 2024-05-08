@@ -27,14 +27,38 @@
 
     <div class="search">
         <input class="input" type="search" placeholder="Buscar...">
-        <button><i class="bi bi-search"></i></button>
+        <button class="buscar"><i class="bi bi-search"></i></button>
     </div>
     
     <div class="iconos">
-        <i class="bi bi-cart"></i>
+        <div class="carrito">
+            <i class="bi bi-cart"></i>
+            <span class="contador">0</span>
+        </div>
         <i class="bi bi-person"></i>
-        <i class="bi bi-0-circle-fill"></i>
     </div>
+
+    <!--ejemplo productos en el carrito-->
+    <div class="contenedor-carrito ocultar-carrito">
+        <div class="lista-producto ocultar">
+            <div class="carrito-producto">
+                <div class="info-producto">
+                    <span class="cantidad-producto">1</span>
+                    <p class="producto-carrito">Pochita</p>
+                    <span class="precio">$ 49.99</span>
+                    <button class="boton-x">
+                        <i class="bi bi-x"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="precio-total">
+            <h3>Total:</h3>
+            <span class="total-pagar">$0</span>
+        </div>
+        <p class="carrito-vacio">El carrito esta vacío</p>
+    </div>
+
 </header>
 
 <section id="figuras" class="descripcion fnd">
