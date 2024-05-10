@@ -80,7 +80,7 @@
                     <img src="https://i.pinimg.com/564x/d9/a7/26/d9a72697c064d86d2457bcca844669b5.jpg" alt="Servicio 1">
                 <div class="servicio-content">
                     <h3>Polera Naruto</h3>
-                    <p>$  49.99</p>
+                    <p>$  39.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -90,7 +90,7 @@
                     <img src="https://i.pinimg.com/564x/96/c0/4d/96c04d362bd65e7eafbd9dab4d42d9d6.jpg" alt="Servicio 2">
                 <div class="servicio-content">
                     <h3>Polera one piece</h3>
-                    <p>$  49.99</p>
+                    <p>$  19.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -100,7 +100,7 @@
                     <img src="https://i.pinimg.com/564x/b7/21/58/b721589a7e97493781cd87cd44254e09.jpg" alt="Servicio 3">
                 <div class="servicio-content">
                     <h3>Zapatilla Boku</h3>
-                    <p>$  49.99</p>
+                    <p>$  59.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -120,7 +120,7 @@
                     <img src="https://i.pinimg.com/564x/1e/a5/db/1ea5db5c75944ed01a148b8475533993.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Polo Naruto</h3>
-                    <p>$  49.99</p>
+                    <p>$  29.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -130,7 +130,7 @@
                     <img src="https://i.pinimg.com/736x/82/c9/de/82c9deecffc8ed6162cbb2fbfc2ab814.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Polo Bakugo</h3>
-                    <p>$  49.99</p>
+                    <p>$  59.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -140,7 +140,7 @@
                     <img src="https://i.pinimg.com/564x/4c/8a/9e/4c8a9e97a36d2c7554f3569709a74fd7.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Polo Deku</h3>
-                    <p>$  49.99</p>
+                    <p>$  39.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -150,7 +150,7 @@
                     <img src="https://i.pinimg.com/564x/b9/3f/7a/b93f7afc2f5521dcaa96e242bd9ef630.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Polera Law</h3>
-                    <p>$  49.99</p>
+                    <p>$  19.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -170,7 +170,7 @@
                     <img src="https://i.pinimg.com/564x/e0/7c/95/e07c95900a4b05abd0997e5023933b60.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Sombrero Ace</h3>
-                    <p>$  49.99</p>
+                    <p>$  29.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -180,7 +180,7 @@
                     <img src="https://i.pinimg.com/564x/73/a4/76/73a476353aadeeb8070ec9d9a373a95b.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Gorra Luffy</h3>
-                    <p>$  49.99</p>
+                    <p>$  59.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -190,7 +190,7 @@
                     <img src="https://i.pinimg.com/564x/39/15/72/391572727b55d024dda4587148e8affa.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Gorra Goku</h3>
-                    <p>$  49.99</p>
+                    <p>$  39.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>

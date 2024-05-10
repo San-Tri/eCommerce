@@ -90,7 +90,7 @@
                 <img src="https://i.pinimg.com/564x/c0/51/ad/c051ad60f5a338c120b25e17381e5561.jpg" alt="Servicio 2">
                 <div class="servicio-content">
                     <h3>Power</h3>
-                    <p>$  49.99</p>
+                    <p>$  39.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -100,7 +100,7 @@
                 <img src="https://i.pinimg.com/564x/c2/43/24/c2432462a33a2635832ddc1fbff31d34.jpg" alt="Servicio 3">
                 <div class="servicio-content">
                     <h3>Krilin</h3>
-                    <p>$  49.99</p>
+                    <p>$  19.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -110,7 +110,7 @@
                 <img src="https://i.pinimg.com/564x/59/68/49/596849009dcba3a6bb994c18e84f6ed3.jpg" alt="Servicio 4">
                 <div class="servicio-content">
                     <h3>Goku</h3>
-                    <p>$  49.99</p>
+                    <p>$  39.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -120,7 +120,7 @@
                 <img src="https://i.pinimg.com/736x/20/9d/33/209d33d529c115d85cf887ca89a079ed.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Charmander</h3>
-                    <p>$  49.99</p>
+                    <p>$  29.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -140,7 +140,7 @@
                 <img src="https://i.pinimg.com/564x/df/54/7f/df547fab1af06f7c045cd3ed9577966a.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Luffy</h3>
-                    <p>$  49.99</p>
+                    <p>$  19.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -150,7 +150,7 @@
                 <img src="https://i.pinimg.com/564x/6d/97/dc/6d97dc266685a230c97710446f37b93d.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Law</h3>
-                    <p>$  49.99</p>
+                    <p>$  59.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -170,7 +170,7 @@
                 <img src="https://i.pinimg.com/564x/d7/73/b0/d773b06b68a6acfc643bfbf6b4a8cc19.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Tanjiro</h3>
-                    <p>$  49.99</p>
+                    <p>$  29.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -190,7 +190,7 @@
                 <img src="https://i.pinimg.com/564x/fd/74/ac/fd74ac481c81bb511886b0ff99268a24.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Deku</h3>
-                    <p>$  49.99</p>
+                    <p>$  39.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>

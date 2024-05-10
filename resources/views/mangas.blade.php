@@ -80,7 +80,7 @@
                     <img src="https://i.pinimg.com/564x/cc/6a/04/cc6a04585fdb13da359e75bfb87b3be6.jpg" alt="Servicio 1">
                 <div class="servicio-content">
                     <h3>One piece</h3>
-                    <p>$  49.99</p>
+                    <p>$  59.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -90,7 +90,7 @@
                     <img src="https://i.pinimg.com/564x/73/8e/f1/738ef1a834d55f133284591faeded531.jpg" alt="Servicio 2">
                 <div class="servicio-content">
                     <h3>Boku no hero</h3>
-                    <p>$  49.99</p>
+                    <p>$  19.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -100,7 +100,7 @@
                     <img src="https://i.pinimg.com/564x/2c/60/39/2c60392e730a460a5e87164594ab0832.jpg" alt="Servicio 3">
                 <div class="servicio-content">
                     <h3>Death Note</h3>
-                    <p>$  49.99</p>
+                    <p>$  39.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -109,8 +109,8 @@
             <div class="servicio">
                     <img src="https://i.pinimg.com/564x/7b/24/81/7b24816a9f9c42745a8c42e90bbf04c2.jpg" alt="Servicio 4">
                 <div class="servicio-content">
-                    <h3>Jojo´s</h3>
-                    <p>$  49.99</p>
+                    <h3>Jojo's</h3>
+                    <p>$  29.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -130,7 +130,7 @@
                     <img src="https://i.pinimg.com/564x/8b/c3/a8/8bc3a86aa54248ee1776152a9c92d46c.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Naruto</h3>
-                    <p>$  49.99</p>
+                    <p>$  59.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -140,7 +140,7 @@
                     <img src="https://i.pinimg.com/564x/78/9f/66/789f6614b5d45522e3b614d1e252c2b0.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Evangelion</h3>
-                    <p>$  49.99</p>
+                    <p>$  29.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -150,7 +150,7 @@
                     <img src="https://i.pinimg.com/564x/1f/85/3d/1f853d3884fe244104ebf2af8d9992c6.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Kimetsu no Yaiba</h3>
-                    <p>$  49.99</p>
+                    <p>$  19.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -160,7 +160,7 @@
                     <img src="https://i.pinimg.com/564x/e3/b2/65/e3b265463c6d5a1f26ddd4d4f2fde85b.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Tokyo Ghoul</h3>
-                    <p>$  49.99</p>
+                    <p>$  59.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -170,7 +170,7 @@
                     <img src="https://i.pinimg.com/736x/8d/0a/a2/8d0aa2607c21ce45625bfc3b07e43692.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Jujutsu Kaisen</h3>
-                    <p>$  49.99</p>
+                    <p>$  39.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
@@ -180,7 +180,7 @@
                     <img src="https://i.pinimg.com/564x/63/12/09/631209232adab7b7d7daee3e90dc4d86.jpg" alt="Servicio 5">
                 <div class="servicio-content">
                     <h3>Chaisaw menS</h3>
-                    <p>$  49.99</p>
+                    <p>$  29.99</p>
                         <br>
                         <button class="btn-add-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
