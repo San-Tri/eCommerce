@@ -23,14 +23,15 @@
                 <li><a href="{{route('mangas')}}">Mangas</a></li>
             </ul>   
         </nav>
-
     </div>
 
     <div class="search">
-        <input class="input" type="search" placeholder="   Buscar...">
-        <button class="buscar">
-            <i class="bi bi-search"></i>
-        </button>
+        <form action="">
+            <input class="input" type="text" placeholder="Buscar...">
+            <button class="buscar">
+                <i class="bi bi-search"></i>
+            </button>
+        </form>
     </div>
 
     <div class="iconos">
